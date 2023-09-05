@@ -1,0 +1,46 @@
+.header {
+  width: 100vw;
+  height: 7vh;
+}
+
+.header_menu {
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  color: aliceblue;
+  font-family: "Inter";
+  font-size: 20px;
+  background-color: #000000;
+  background-image: linear-gradient(315deg, #11101000 0%, #5e5368 74%);
+  z-index: 2;
+  border-radius: 10px;
+}
+
+.header_lists__container {
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  
+}
+
+.header_lists {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  gap: 50px;
+}
+
+.header_lists__text{
+
+}
