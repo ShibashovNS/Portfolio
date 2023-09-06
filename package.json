@@ -1,6 +1,7 @@
 {
-  "name": "Portfolio",
+  "name": "my-portfolio",
   "version": "0.1.0",
+  "homepage": "https://shibashovns.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "@fontsource/roboto": "^5.0.8",
