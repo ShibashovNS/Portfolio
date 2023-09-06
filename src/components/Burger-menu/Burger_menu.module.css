@@ -64,6 +64,7 @@
 @media screen and (max-width: 740px) {
   .menu {
     transform: translateX(-150%);
+    
   }
 }
 
@@ -81,12 +82,12 @@
 
 @media screen and (max-width: 740px) {
   .menu__header {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
 @media screen and (max-width: 740px) {
   .menu__link {
-    font-size: 20px;
+    font-size: 17px;
   }
 }

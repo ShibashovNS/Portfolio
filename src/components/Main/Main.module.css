@@ -21,6 +21,7 @@
   text-align: start;
   max-width: 1000px;
   align-self: center;
+  line-height: 30px;
 }
 
 .main__photo_container {

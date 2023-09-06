@@ -7,6 +7,11 @@ import styles from "./App.module.css";
 
 function App() {
   const [menuActive, setActive] = useState(true);
+
+  const onClick = () => {
+    setActive(!menuActive);
+  };
+
   const items = [
     {
       _id: 1,
@@ -20,10 +25,11 @@ function App() {
 
   return (
     <div className={styles.App}>
-      <Header menuActive={menuActive} setActive={setActive} />
+      <Header onClick={onClick} menuActive={menuActive} setActive={setActive} />
       <Main />
       <Footer />
       <BurgerMenu
+        onClick={onClick}
         menuActive={menuActive}
         setActive={setActive}
         header={"Общая информация"}

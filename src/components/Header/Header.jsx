@@ -1,10 +1,8 @@
 import { ButtonMemu } from "../Button_menu/Button_menu";
 import styles from "./Header.module.css";
 
-export const Header = ({ setActive, menuActive }) => {
-  const onClick = () => {
-    setActive(!menuActive);
-  };
+export const Header = ({onClick, setActive, menuActive }) => {
+
 
   return (
     <header className={styles.header}>
