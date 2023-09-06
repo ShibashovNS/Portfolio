@@ -6,7 +6,7 @@ import how_to_learn from "../../../src/image/main/how_to_learn.png";
 export const projectsArray = [
   {
     _id: 1,
-    name: "stellar-burger",
+    name: "Stellar-burger",
     image: stellarburger,
     link: "https://shibashovns.github.io/react-stellar-burger/",
   },
@@ -18,13 +18,13 @@ export const projectsArray = [
   },
   {
     _id: 3,
-    name: "russian-travel-bootcamp",
+    name: "Russian-travel",
     image: russian_travel,
     link: "https://shibashovns.github.io/russian-travel-bootcamp/",
   },
   {
     _id: 4,
-    name: "how-to-learn-bootcamp",
+    name: "How-to-learn",
     image: how_to_learn,
     link: "https://shibashovns.github.io/first-project/",
   },
