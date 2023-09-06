@@ -1,5 +1,6 @@
 .main {
   margin: 0 auto;
+  margin-top: 160px;
   width: 81%;
   align-items: center;
   color: white;
@@ -8,7 +9,6 @@
 }
 
 .main_flex {
-  height: 100vh;
   text-align: center;
   display: flex;
   flex-direction: row;
@@ -16,6 +16,7 @@
 }
 
 .main_container {
+  margin: 50px 0 0;
   display: block;
   text-align: start;
   max-width: 1000px;
@@ -25,6 +26,7 @@
 .main__photo_container {
   text-align: right;
   align-self: center;
+  
 }
 
 .main__photo {
@@ -35,19 +37,46 @@
 }
 
 .main__text {
-  margin: 0 0 10px 0;
+  margin: 160px 0 10px 0;
   text-align: center;
   font-size: 40px;
 }
 
 @media screen and (max-width: 1231px) {
-  .main{
+  .main {
     grid-template-columns: repeat(1, auto);
-}
+  }
 }
 
 @media screen and (max-width: 972px) {
   .main_flex {
     flex-direction: column;
+  }
 }
+
+@media screen and (max-width: 740px) {
+  .main__photo {
+    max-width: 250px;
+    max-height: 250px;
+  }
 }
+
+@media screen and (max-width: 740px) {
+  .main {
+    margin-top: 70px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .main__text {
+    margin: 50px 0 10px 0;
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .main_container  {
+    font-size: 15px;
+  }
+}
+
