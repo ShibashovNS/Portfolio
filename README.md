@@ -1,6 +1,6 @@
 ## Описание проекта:
 Портфолио с контактной информацией
-[ссылка на проект]()
+[ссылка на проект](https://shibashovns.github.io/Portfolio/)
 
 ## Установка
 
@@ -8,7 +8,7 @@
 1. Склонировать проект на свой компьютер
 
 ```bash
-git clone https://github.com/ShibashovNS/react-stellar-burger.git
+git clone https://github.com/ShibashovNS/Portfolio.git
 ```
 
 2. Перейти в папку с проектом и установить зависимости в проекте
